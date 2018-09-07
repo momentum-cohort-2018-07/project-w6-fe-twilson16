@@ -1,0 +1,63 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.App-title {
+  text-align: center;
+  font-size: 1.5em
+}
+
+.App-intro {
+  font-size: large
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  height: 100px;
+  padding: 40px;
+}
+.whole-book-div {
+  border: 1px solid black;
+  margin: 10px auto;
+  max-width: 70%;
+}
+
+.book-title, .author, .short-description {
+  max-width: 65%;
+  text-align: left;
+  margin: 6px 10px;
+  font-display: bold;
+  font-size: 16px;
+
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.book-image {
+  width: 100px;
+  margin: 12px;
+  float: right;
+}
+
+.expand-button {
+  font-size: 16px;
+  height: 35px;
+  width: 200px;
+  margin: 5px 10px;
+}
+
+.expanded-info-div {
+  margin: 10px;
+}
