@@ -1,5 +1,4 @@
 
-
 * {
   box-sizing: border-box;
   margin: 0 auto;
@@ -29,6 +28,7 @@ header {
   border: 1px solid black;
   margin: 10px auto;
   max-width: 70%;
+
 }
 
 .book-title, .author, .short-description {
@@ -37,7 +37,6 @@ header {
   margin: 6px 10px;
   font-display: bold;
   font-size: 16px;
-
 }
 
 .bold {
@@ -48,7 +47,7 @@ header {
 .book-image {
   width: 100px;
   margin: 12px;
-  float: right;
+  display: inline-block;
 }
 
 .expand-button {
@@ -60,4 +59,11 @@ header {
 
 .expanded-info-div {
   margin: 10px;
+}
+
+.editing-button {
+  font-size: 12px;
+  height: 25px;
+  width: 100px;
+  margin: 5px 10px;
 }
