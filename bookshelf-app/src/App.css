@@ -24,11 +24,11 @@ header {
   height: 100px;
   padding: 40px;
 }
+
 .whole-book-div {
   border: 1px solid black;
   margin: 10px auto;
   max-width: 70%;
-
 }
 
 .book-title, .author, .short-description {
@@ -45,9 +45,11 @@ header {
 }
 
 .book-image {
-  width: 100px;
-  margin: 12px;
-  display: inline-block;
+  width: 95px;
+  height: 110px;
+  margin: -12px 12px;
+  float: right;
+  border: 1px solid black;
 }
 
 .expand-button {
@@ -57,13 +59,65 @@ header {
   margin: 5px 10px;
 }
 
+.collapse-button {
+  font-size: 16px;
+  height: 35px;
+  width: 200px;
+  margin: 5px 5px;
+}
+
 .expanded-info-div {
   margin: 10px;
 }
 
-.editing-button {
+.editing-button, .adding-button {
   font-size: 12px;
   height: 25px;
   width: 100px;
   margin: 5px 10px;
+  display: inline-block;
+}
+
+.adding, .editing , .save, .back {
+  max-width: 40%;
+  margin: unset;
+  display: inline-block;
+
+}
+
+.book-title-edit, .author-edit, .short-description-edit, .publisher-edit, .publication-date-edit, .expanded-description-edit {
+  margin: 6px;
+  font-size: 14px;
+}
+
+input {
+  font-size: 16px;
+  width: 350px;
+  overflow: auto;
+}
+
+input.short-description-edit input.expanded-description-edit {
+  height: 3rem;
+}
+
+.edit-info-div {
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px auto;
+  max-width: 70%;
+}
+
+.save-button, .back-button {
+  height: 35px;
+  width: 80px;
+  display: inline-block;
+}
+
+.save-button {
+  margin: 5px 20px 5px 415px;
+}
+
+.back-button {
+  margin: 5px 20px 5px 20px;
 }
